@@ -1,0 +1,38 @@
+.img-style {
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 10px;
+    width: 250px;
+    height: 550px;
+    box-shadow: 1px 3px 5px rgb(143, 175, 173);
+
+}
+
+.description {
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 1px 3px 5px rgb(20, 34, 32);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.detail-button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: aqua;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.detail-button:hover {
+    cursor: pointer;
+    background-color: rgb(111, 169, 208);
+    transition: all 0.3s;
+}
